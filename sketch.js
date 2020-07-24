@@ -7,6 +7,7 @@ function setup() {
 
 function draw() {
 	background(51);
+	move.showVelocity();
 	move.update();
 	move.show();
 }
